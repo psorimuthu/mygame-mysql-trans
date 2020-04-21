@@ -1,0 +1,17 @@
+#padapp:
+#    image: padh2sb:1
+#    ports: 
+#    - "8081:8081"
+#    links:
+#    - mydb:mysql
+mydb:
+    image: mysql:latest
+    expose:
+    - "3306"    
+    environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_USER=sa
+    - MYSQL_password=password
+    - MYSQL_DATABASE=mydatabase
+    ports: 
+    - "3306:3306"    
