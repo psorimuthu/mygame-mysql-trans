@@ -1,6 +1,5 @@
 package com.pad.mysql.demo.service.impl;
 
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.pad.mysql.demo.dao.EmployeeDAO;
 import com.pad.mysql.demo.data.Employee;
 import com.pad.mysql.demo.service.EmployeeService;

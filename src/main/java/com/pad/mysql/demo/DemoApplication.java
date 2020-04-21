@@ -1,13 +1,12 @@
 package com.pad.mysql.demo;
 
-import com.pad.mysql.demo.data.Employee;
-import com.pad.mysql.demo.data.EmployeeHealthInsurance;
-import com.pad.mysql.demo.service.OrganizationService;
+//import com.pad.mysql.demo.data.Employee;
+// import com.pad.mysql.demo.data.EmployeeHealthInsurance;
+// import com.pad.mysql.demo.service.OrganizationService;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
+//import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class DemoApplication {
